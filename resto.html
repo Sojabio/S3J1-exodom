@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Miam Miam</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="popup">
+      <span class="cancel-icon" >×</span>
+      <br>
+      <p class="popupText"> Tu pars déjà ? </p>
+  </div>
+  <div>
+    <div class="row" >
+      <div class="column">
+        <h1 class="tab" data-target="home">Accueil</h1>
+      </div>
+      <div class="column">
+        <h1 class="tab" data-target="menu">Menu sucré</h1>
+      </div>
+      <div class="column">
+        <h1 class="tab" data-target="saltedMenu">Menu salé</h1>
+      </div>
+      <div class="column">
+        <h1 class="tab" data-target="pictures">Photos</h1>
+      </div>
+    </div>
+  </div>
+  <div class="center" id="home">
+    <div class="row">
+      <div class="column">
+        <h1 class="title" > Le meilleur kakigori de sa catégorie </h1>
+        <img src="kakigori.jpg" alt="kakigori" height="500" width="700">
+      </div>
+    </div>
+  </div>
+  <div class="center hidden"  id="menu">
+    <div class="row">
+      <div class="column">
+        <h1 class="title" > Menu Sucré </h1>
+        <h1>Matcha 抹茶</h1>
+        <p>Un délicieux kakigori à la saveur riche et terreuse du thé matcha.</p>
+        <h1>Fraise 草莓</h1>
+        <p>Un kakigori sucré et rafraîchissant à la saveur juteuse de la fraise.</p>
+        <h1>Citron vert 酸橙</h1>
+        <p>Un kakigori acidulé et rafraîchissant à la saveur vive du citron vert.</p>
+        <h1>Mangue 芒果</h1>
+        <p>Un kakigori exotique et sucré à la saveur juteuse de la mangue.</p>
+        <h1>Yuzu 柚子</h1>
+        <p>Un kakigori au parfum unique du yuzu, un agrume japonais aromatique.</p>
+        <h1>Thé au jasmin 茉莉花茶</h1>
+        <p>Un kakigori parfumé et délicat avec l'arôme floral du thé au jasmin.</p>
+        <h1>Melon 哈密瓜</h1>
+        <p>Un kakigori sucré et rafraîchissant à la saveur douce et juteuse du melon.</p>
+        <h1>Café 咖啡</h1>
+        <p>Un kakigori avec une saveur corsée et légèrement amère du café.</p>
+        <h1>Chocolat 巧克力</h1>
+        <p>Un kakigori riche et crémeux à la saveur intense du chocolat.</p>
+      </div>
+    </div>
+  </div>
+  <div class="center hidden"  id="saltedMenu">
+    <div class="row">
+      <div class="column">
+        <h1 class="title" > Menu Salé </h1>
+        <h1 class="dish">Une entrée fade</h1>
+        <p class="side"> Et sans intérêt<starterTitle/p>
+        <h1 class="dish">Un plat relou</h1>
+        <p class="side"> Et pas très bon</p>
+        <h1 class="dish">Un dessert décongelé</h1>
+        <p class="side"> Qui donne la nausée</p>
+        <button type="button" id="changeButton">Marre de ce menu ? Change-le !</button>
+      </div>
+    </div>
+  </div>
+  <div class="center hidden"  id="pictures">
+    <div class="grid-container">
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="k1.jpg">
+      </div>
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="ka1.jpg">
+      </div>
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="ka2.jpg">
+      </div>
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="ka3.jpg">
+      </div>
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="ka4.jpg">
+      </div>
+      <div class="grid-item">
+        <img draggable="true"; class="food-img"; src="ka5.jpg">
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+}
+
+
+.title{
+  text-align: center;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.hidden {
+ display: none;
+}
+
+button{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+  line-height: 30px;
+  margin:0 auto;
+  display:block;
+  background-color: white;
+  border: 2px solid ;
+  padding: 7px;
+}
+
+button:hover {
+  background: black;
+  color: white; }
+
+
+.popup{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 600 px;
+  border-radius: 3px;
+  background:black;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 2;
+  }
+
+.open-popup {
+  visibility: visible;
+}
+
+.body-popup {
+  background: grey;
+}
+
+.image-popup {
+    filter: brightness(40%);
+}
+
+.cancel-icon{
+  float:right;
+  cursor:pointer;
+  color: white;
+  padding: 15px;
+}
+
+.popupText{
+  padding: 15px 30px 30px;
+}
+
+/* .parent {
+  width: 100px;
+  height: 100px;
+} */
+
+.food-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: grab;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:250px 250px 250px;
+  gap: 50px 50px;
+}
